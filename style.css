@@ -19,7 +19,7 @@ p.forgotten-account:hover {
 
 .center {
     max-width: 1100px;
-    height: 65px;
+    height: 68px;
     padding: 0 5%;
     margin: 0 auto;
 }
@@ -64,6 +64,7 @@ form.form-login {
     border: 0.5px solid black;
     width: 143px;
     height: 22px;
+    padding: 0 5px;
 }
 
 .form-element input[type=submit] {
@@ -80,25 +81,92 @@ form.form-login {
     background-color: #073da0;
 }
 
+section.main {
+    background: linear-gradient(white,#D3D8E8);
+    height: 590px;
+    padding: 40px 0;
+}
 
+.img-pessoas {
+    float: left;
+    width: 60%;
+}
 
+.img-pessoas img {
+    max-width: 100%;
+}
 
+.abrir-conta {
+    width: 40%;
+    float: right;
+}
 
+.abrir-conta h2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 37px;
+}
 
+.abrir-conta h3 {
+    color: rgb(66, 64, 64);
+    font-size: 20px;
+    margin-top: 5px;
+}
 
+form.criar-conta input{
+    width: 100%;
+    margin-top: 5px;
+}
 
+.w50 {
+    width: 50%;
+    float: left;
+    padding: 5px;
+    height: 50px;
+}
+.w100 {
+    padding: 5px;
+    width: 100%;
+    float: left;
+}
 
+.criar-conta input[type = text] {
+    font-size: 17px;
+    padding: 5px 10px;
+    height: 40px;
+    width: 185px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+}
 
+::placeholder {
+    color: rgb(172, 165, 165);
+}
 
+.criar-conta input[type = password], .criar-conta input[type = email] {
+    font-size: 17px;
+    padding: 5px 10px;
+    height: 40px;
+    width: 380px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+}
 
+form.criar-conta input[type=submit] {
+    height: 40px;
+    background: linear-gradient(#67ae55, #578833);
+    color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    border: 0;
+}
 
-
-
-
-
-
-
-
+form.criar-conta input[type=submit]:hover {
+    background: linear-gradient(#8ec281, #578833);
+}
 
 
 
