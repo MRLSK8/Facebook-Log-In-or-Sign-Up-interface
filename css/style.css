@@ -6,9 +6,8 @@
 }
 
 p.forgotten-account {
-    position: absolute;
     margin-top: 3px;
-    left: 955px;
+    margin-left: 165px;
     color: rgb(160, 203, 206);
     font-size: 13px;
 }
@@ -29,7 +28,7 @@ p.forgotten-account:hover {
 } 
 
 header {
-    background-color: #3b5998;
+    background-color: #415e9b;
     padding: 8px 0; 
 }
 
@@ -40,6 +39,7 @@ div.logo {
 }
 .logo h2 {
     font-size: 40px;
+    font-family: 'Kanit', sans-serif;
     font-weight: bolder;
 }
 
@@ -83,7 +83,7 @@ form.form-login {
 
 section.main {
     background: linear-gradient(white,#D3D8E8);
-    height: 590px;
+    height: 600px;
     padding: 40px 0;
 }
 
@@ -104,13 +104,15 @@ section.main {
 .abrir-conta h2 {
     color: black;
     font-weight: bolder;
-    font-size: 37px;
+    font-size: 40px;
+    margin-top: -80px;
 }
 
 .abrir-conta h3 {
     color: rgb(66, 64, 64);
     font-size: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 form.criar-conta input{
@@ -166,14 +168,54 @@ form.criar-conta input[type=submit] {
 
 form.criar-conta input[type=submit]:hover {
     background: linear-gradient(#8ec281, #578833);
+    outline: none;
 }
 
+form .w100 h2 {
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 22px;
+    font-weight: normal;
+}
 
+form select.nascimento {
+    float: left;
+    margin-top: 5px;
+    width: 70px;
+    height: 30px;
+}
 
+.input-radio {
+    float: left;
+    padding: 8px;
+}
 
+.input-radio input[type="radio"], .input-radio label {
+    width: auto !important;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.input-radio input[type="radio"] {
+    height: 20px;
+    width: 15px !important;
+}
 
+.criar-conta-celebridade {
+    float: left;
+    font-size: 14px;
+    margin-top: 45px;
+}
 
+span {
+    color:#04297a;
+    font-weight: bold;
+}
 
-
-
+.mensagem {
+    color: #063057;
+    font-weight: bold;
+    font-size: 22px;
+    width: 50%;
+}
 
